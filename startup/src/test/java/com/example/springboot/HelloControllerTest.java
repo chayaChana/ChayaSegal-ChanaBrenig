@@ -24,6 +24,6 @@ public class HelloControllerTest {
 	public void getText() throws Exception {
 		mvc.perform(MockMvcRequestBuilders.get("/").accept(MediaType.APPLICATION_JSON))
 				.andExpect(status().isOk())
-				.andExpect(content().string(equalTo( "the text is:Chaya and Chana check if the string is empty")));                                              " )));
+				.andExpect(content().string(equalTo("the text is:Chaya and Chana check if the string is empty")));                                     
 	}
 }
