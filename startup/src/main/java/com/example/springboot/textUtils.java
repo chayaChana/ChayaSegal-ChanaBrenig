@@ -9,7 +9,7 @@ public class textUtils {
 	public static String getText() {
 		if (StringUtils.isEmpty(name)) 
 			return "the text is empty";
-		return "the text is: " + name;
+		return "the text is:" + name;
 	}
 
 }
